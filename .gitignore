@@ -1,0 +1,31 @@
+mypopup = function() {
+    $( '<div></div>').dialog({
+      resizable: false,
+      height: "auto",
+      width: 400,
+      modal: true,
+	  tittle :"Confirmation",
+	  open : function(){
+	  var mytext ='Hello World';
+	  $(this).html(mytext).css("color","green");
+	  },
+      buttons: {
+        "Delete all items": function() {
+          $( this ).dialog( "close" );
+        }
+      }
+    });
+  }
+  
+  ===
+  
+  $('#button1').scrollTop(100);
+  $('#button1').scrollDown(100);
+  
+ 
+  
+  ==
+  
+   $("#button").on("click",function(){
+  sdsad();
+  }
